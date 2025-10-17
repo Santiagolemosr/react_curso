@@ -1,1 +1,33 @@
 npm create vite@latest
+repositorio github
+iniciar repositorio local:
+"git init"
+cambiar el nombre de master a main:
+"git brnch -M main"
+eliminar credenciales de otros usuarios:
+win+s
+selccionar credenciales de windows y buscar las cuentas github y eliminar.
+
+luego de leiminar las credenciales 
+
+configurar usuario local de git:
+git config user.email "su gmail"
+git config user.name "nombre"
+
+ahora agregar todos los archivos del proyecto:
+git add .
+
+realizar un commit descriptivo de la version a subir:
+git commit -m "primera subida"
+
+copiamos  la dos ultiimas  lineas del 
+comprobar el estado del proyecto:
+git status
+
+(si aparece algo rojo significa que el archivo es nuevo o se ha modificado).
+comandos para actualizar el repositorio con la version local:
+git status
+git add .
+git commit -m "nombre de la version o descripcion del commit"
+crear ramas:git push -u origin main
+
