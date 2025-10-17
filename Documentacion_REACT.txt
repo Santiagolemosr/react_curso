@@ -29,5 +29,13 @@ comandos para actualizar el repositorio con la version local:
 git status
 git add .
 git commit -m "nombre de la version o descripcion del commit"
-crear ramas:git push -u origin main
+crear ramas:
+git checkout -b nombre de la  rama(minuscula)
+git push  origin  nombre de la rama
+
+crear proyecto react:
+cd desktop
+cd  nombre de la carpeta
+npm create vite@latest
+
 
